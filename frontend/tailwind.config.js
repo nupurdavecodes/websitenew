@@ -5,7 +5,17 @@ module.exports = {
     "./public/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        luxury: {
+          black: '#0A0908',
+          slate: '#22333B',
+          cream: '#EAE0D5',
+          beige: '#C6AC8E',
+          brown: '#5E503F',
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -4,14 +4,23 @@
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+    font-family: 'Times New Roman', Georgia, serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #22333B; /* Luxury deep slate blue */
+    color: #EAE0D5; /* Luxury cream */
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+    color: #C6AC8E; /* Luxury beige */
+}
+
+:root {
+    --luxury-black: #0A0908;
+    --luxury-slate: #22333B;
+    --luxury-cream: #EAE0D5;
+    --luxury-beige: #C6AC8E;
+    --luxury-brown: #5E503F;
 }

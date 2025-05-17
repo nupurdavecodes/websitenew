@@ -46,7 +46,7 @@ const Hero = () => {
             className="relative"
           >
             <img 
-              src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" 
+              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf" 
               alt="NRI returning to India" 
               className="rounded-lg shadow-xl w-full"
             />

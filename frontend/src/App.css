@@ -16,15 +16,32 @@
     }
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.prose h3 {
+  @apply text-xl font-bold mt-6 mb-3 text-gray-800;
+}
+
+.prose h4 {
+  @apply text-lg font-bold mt-5 mb-2 text-gray-800;
+}
+
+.prose p {
+  @apply mb-4 text-gray-700 leading-relaxed;
+}
+
+.prose ul {
+  @apply mb-4 pl-6 list-disc text-gray-700;
+}
+
+.prose li {
+  @apply mb-2;
+}
+
+.prose a {
+  @apply text-primary hover:underline;
+}
+
+.prose blockquote {
+  @apply border-l-4 border-primary pl-4 italic my-4 text-gray-600;
 }
 
 .App-link {

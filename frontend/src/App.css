@@ -1,5 +1,8 @@
-.App {
-    text-align: center;
+/* Base styles already handled through Tailwind in index.css */
+
+/* Additional styles for article content */
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-gray-800;
 }
 
 .App-logo {
